@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+.level{
+    padding-right: 380px;
+    font-size: larger;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./image/main.png');
+    background-position: bottom;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.header-contant{
+    margin-left: -400px;
+    color: whitesmoke;
+}
+.header-contant h1{
+    font-size: 7vmin;
+}
+p{
+    font-size: 20px;
+}
+.ctn{
+    padding: 8px 15px;
+    color: whitesmoke;
+}
+.container{
+    justify-items: center;
+    margin: 25px;
+    padding-left: 300px; 
+}
+.buy{
+    background-color:#7a34eb;
+    color: white;
+    padding: 16px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;  
+}
+.buy:hover{
+    background-color: #34ebbd;
+    color: black;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.nav-links li{
+    margin: 0 20px;
+    justify-content: center;
+    color: black;
+}
+
+.mtu{
+    display: inline-block;
+    position: relative;
+    color: black
+  }
+  
+.mtu::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.40s ;
+}
+  
+.mtu:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.mud{
+    /* display: inline-block; */
+    /* position: relative; */
+    color: whitesmoke
+    
+}
+  
+.mud::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:whitesmoke;
+    transform-origin: bottom right;
+    transition: transform 0.40s ;
+}
+
+.mud:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.promotion{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 85px;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.ima{
+    width: 55px;
+    height: 51px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 60px;
+}
+.mpt{
+    
+    width: 50%;
+    margin: 10px 10px;
+}
+.image{
+    /* display: block; */
+    width: 100%;
+    height: auto;
+}
+.hov-container{
+   /* position: absolute; */
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: 0.5s ease;
+   background-color: blue;
+}
+.mpt:hover .overlay{
+    opacity: 1;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-row{
+    border: none;
+    padding: 30px 90px;
+    text-align: left;
+    background-color: white;
+}
+.fft{
+    font-size: 12px;
+    text-align: left;
+}
+.video{
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 2px;
+}
+.video-item{
+    text-align: center;
+    padding: 50px;
+    font-size: larger;
+}
+/* down */
+.mob{
+    color: blue;
+    width: 10px;
+    height: 10px;
+}
+.grid-mop{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.vvk{
+    background-color: #7a34eb;
+    padding-bottom: 380px;
+    
+}
+.vbr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.mop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-left: 270px;
+    padding-top: 25px;
+    
+}
+.grid-moo{
+    display: flex;
+    margin-top: -294px;
+    padding: 48px;
+    background-color: white;
+  
+}
+.nob{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial Narrow, sans-serif;  
+}
+.nop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noop{
+    color: #7a34eb;  
+}
+.noob{
+    color: #7a34eb;
+    font-size: 50px;
+}
+.nok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nok{
+    background-color:whitesmoke;
+    color: black;
+    padding: 16px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;  
+}
+.nok:hover{
+    background-color: #7a34eb;
+    color: black;
+    transition: 1s;
+}
+.vkv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;  
+}
+.mpp{
+    text-align: center;
+}
+.ffo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-empl{
+    display: flex;
+    padding: 43px 55px;
+    background-color: white;
+}
+.tox{
+    height: 280px;
+    width: 100%;
+}
+.gek img {
+    transition: 0.7s ;
+}
+  
+.gek:hover img {
+    transform: scale(1.5);
+}
+
+.box{
+    background-color:  #a35cab;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.box:hover img{
+    opacity: 0.2;
+    transform: translateY(20px) scale(1.2);
+}
+.box .box-content{
+    color: #fff;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%) scaleY(0);
+    transform-origin: top center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.5s;
+}
+.box:hover .box-content{ 
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+.post{
+    color: rgb(237, 234, 234);
+}
+.boo{
+    background-color: white;   
+}
+.bms{
+    display: flex;
+    margin: 75px;
+    padding: 68px;
+    justify-content: center;
+    
+}
+.imo{
+    width: 10%;
+    border-radius: 50%;
+}
+.bsc{
+    text-align: center;
+    margin: -98px;
+}
+.bco{
+ font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
