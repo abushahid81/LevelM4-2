@@ -66,6 +66,7 @@ p{
     left: 0;
     width: 100%;
     padding: 10px;
+    z-index: 1;
 
 }
 .nav-links{
@@ -282,8 +283,10 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    background-color: white;  
+    background-color: white; 
+    
 }
+
 .mpp{
     text-align: center;
 }
